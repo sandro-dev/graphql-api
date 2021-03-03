@@ -1,0 +1,21 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Sandro Santos",
+    "email": "sandro.dev@gmail.com",
+    "url": "http://sandrosantos.dev"
+  },
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "nodemon": "^2.0.7"
+  }
+}
