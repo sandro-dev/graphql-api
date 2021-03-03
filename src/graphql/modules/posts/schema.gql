@@ -2,13 +2,13 @@ type Post {
   _id: ID!
   title: String!
   content: String!
-  auth: User!
+  author: User!
 }
 
 input PostInput {
   title: String!
   content: String!
-  auth: ID!
+  author: ID!
 }
 
 type Query {
