@@ -1,8 +1,6 @@
 import 'dotenv/config';
-
+import { ApolloServer, PubSub } from 'apollo-server';
 import mongoose from 'mongoose';
-
-import { ApolloServer } from 'apollo-server';
 
 function startServer({ typeDefs, resolvers }) {
 
@@ -13,7 +11,8 @@ function startServer({ typeDefs, resolvers }) {
     },
   );
 
-  const server = new ApolloServer({typeDefs, resolvers});
+  const pubsub = new PubSub();
+  const server = new ApolloServer({ typeDefs, resolvers, context: { pubsub }});
   server.listen().then(({ url }) => console.log(`✅ Server started at ${url} ⚫⚫⚫`));
 
 }
