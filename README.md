@@ -34,11 +34,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   | [@babel/node](https://babeljs.io/docs/en/babel-node) | babel-node is a CLI that works exactly the same as the Node.js CLI, with the added benefit of compiling with Babel presets and plugins before running it. |
   | [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) | @babel/preset-env is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller! |
   | [nodemon](https://nodemon.io/) | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. |
+  | [dotenv](https://www.npmjs.com/package/dotenv) | Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. |
   | [mongoose](https://mongoosejs.com/) | elegant mongodb object modeling for node.js |
   | [Apollo-Server](https://www.apollographql.com/docs/apollo-server/) | Apollo Server is an open-source, spec-compliant GraphQL server that's compatible with any GraphQL client, including Apollo Client. It's the best way to build a production-ready, self-documenting GraphQL API that can use data from any source. |
   | [GraphQl](https://graphql.org/)  | GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. |
-  | [dotenv](https://www.npmjs.com/package/dotenv) | Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. |
-
+  | [graphql-tools](https://github.com/ardatan/graphql-tools) | Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. |
 
 
 
