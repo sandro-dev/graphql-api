@@ -62,41 +62,22 @@ Execute o comando yarn para instalar todas as dependências:
   yarn
 ```
 
-Execute o seguinte comando para rodar a fake API com o JSON-Server:
-
+Agora vamos executar o seguinte comando para colocar a aplicação para rodar:
 ```bash
-  json-server --watch data.json --port 3333
-```
-
-Agora vamos executar o seguinte comando para executar a aplicação:
-```bash
-  yarn start
+  yarn dev
 ```
 
 Aguarde o browser abrir com o url da aplicação:
-`http://localhost:3000`
+`http://localhost:4000`
 
-Pronto, agora é só explorar a aplicação
+Pronto, agora é só explorar a aplicação com as queries e mutations. ;)
 
-
-Para executarmos testes na aplicação, basta executar o seguinte comando:
-```bash
-  yarn test:coverage
-```
 
 ## :camera: Screenshots
 
-![List Hi Platform](https://raw.githubusercontent.com/sandro-dev/desafio-hiplatform/master/screenshots/screenshot.gif)
+<img src="https://raw.githubusercontent.com/sandro-dev/graphql-api/master/.github/screenshot-01.PNG" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/desafio-hiplatform/master/screenshots/screenshot-01.PNG" />
-
-<img src="https://raw.githubusercontent.com/sandro-dev/desafio-hiplatform/master/screenshots/screenshot-02.PNG" />
-
-### Tests
-<img src="https://raw.githubusercontent.com/sandro-dev/desafio-hiplatform/master/screenshots/screenshot-03.PNG" />
-
-<img src="https://raw.githubusercontent.com/sandro-dev/desafio-hiplatform/master/screenshots/screenshot-04.PNG" />
-
+<img src="https://raw.githubusercontent.com/sandro-dev/graphql-api/master/.github/screenshot-02.PNG" />
 
 
 ## :memo: Licença
